@@ -62,6 +62,15 @@
 
         </div>
         <div class="signup_n_socials">
+            <a href="">SIGN-UP NOW!</a>
+            <div class="socials">
+                <span>FOLLOW US</span>
+                <img src="@/assets/footer-facebook.png" alt="">
+                <img src="@/assets/footer-twitter.png" alt="">
+                <img src="@/assets/footer-youtube.png" alt="">
+                <img src="@/assets/footer-pinterest.png" alt="">
+                <img src="@/assets/footer-periscope.png" alt="">
+            </div>
 
         </div>
     </div>
@@ -133,13 +142,36 @@
     .footer_logo_right{
         background-image: url(@/assets/dc-logo-bg.png);
         height: 100%;
-        width: 40%;
+        width: 43%;
         background-repeat: no-repeat;
         background-position: center;
     }
     .signup_n_socials{
         background-color: #303030;
         height: 108px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        a{
+            color: white;
+            padding: 10px;
+            border: 2px solid blue;
+        }
+        .socials{
+            *{
+                padding: 12px;
+            }
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                font-weight: 700;
+                color: #0282F9;
+            }
+        }
     }
 
 </style>
