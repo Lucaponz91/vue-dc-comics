@@ -1,9 +1,10 @@
 <template>
   <div class="card_container">
-    <div class="card">
-        <img src="" alt="">
-        <h5></h5>
-
+    <div class="card" v-for="(comic, index) in comics" :key="index">
+        <a href="#">
+            <img :src="comic.thumb" :alt="comic.series">
+            <h5>{{ comic.series }}</h5>
+        </a>
     </div>
   </div>
 </template>
@@ -12,9 +13,10 @@
     import comics from '@/components/Comics'
 
 
-export default {
-    name: 'card'
-
+    export default {
+    props: {
+        comics: Array
+    }
 }
 </script>
 
