@@ -24,8 +24,20 @@
 </script>
 
 <style lang="scss" scoped>
+    .card_container{
+        // display: flex;
+        // flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
     .card{
         height: 240px;
+    }
+    img{
+        width: 190px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: top;
     }
 
 </style>

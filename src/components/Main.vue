@@ -28,6 +28,7 @@
         background-color: black;
         height: 130px;
         color: white;
+        height: 100%;
     }
 
 </style>
