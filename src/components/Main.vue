@@ -1,7 +1,8 @@
 <template>
+
     <div class="main_container">
         <div>
-            INSERIRE QUI IL MAIN CONTENT
+            <CardsContainer/>
         </div>
 
     </div>
@@ -9,9 +10,11 @@
 
 
 <script>
+    import CardsContainer from './CardsContainer.vue'
     export default{
-        name: 'MainContent'
-    }
+    name: "MainContent",
+    components: { CardsContainer }
+}
 </script>
 
 <style lang="scss" scoped>

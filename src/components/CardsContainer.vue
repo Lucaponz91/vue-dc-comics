@@ -11,11 +11,14 @@
 
 <script>
     import comics from '@/components/Comics'
+    // console.log(comics);
 
 
     export default {
-    props: {
-        comics: Array
+    data() { 
+        return{
+        comics
+        }
     }
 }
 </script>
