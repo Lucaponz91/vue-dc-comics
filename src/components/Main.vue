@@ -2,7 +2,7 @@
 
     <div class="main_container">
         <div>
-            <CardsContainer/>
+            <CardsContainer :comics="comics"/>
         </div>
 
     </div>
@@ -11,9 +11,15 @@
 
 <script>
     import CardsContainer from './CardsContainer.vue'
+    import comics from './Comics'
     export default{
     name: "MainContent",
-    components: { CardsContainer }
+    components: { CardsContainer },
+    data () {
+        return{
+        comics
+        }
+    },
 }
 </script>
 

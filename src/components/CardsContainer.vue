@@ -11,13 +11,13 @@
 
 <script>
     import comics from '@/components/Comics'
-    // console.log(comics);
+    console.log(comics);
 
 
     export default {
     data() { 
         return{
-        comics
+            comics
         }
     }
 }
