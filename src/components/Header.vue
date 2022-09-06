@@ -37,6 +37,9 @@
             li{
                 padding: 15px;
                 font-weight: 800;
+                &:hover{
+                    border-bottom: 4px solid blue;
+                }
             }
         }
     }

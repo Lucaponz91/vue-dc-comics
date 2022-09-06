@@ -62,14 +62,14 @@
 
         </div>
         <div class="signup_n_socials">
-            <a href="">SIGN-UP NOW!</a>
+            <a href=""><span>SIGN-UP NOW!</span></a>
             <div class="socials">
                 <span>FOLLOW US</span>
-                <img src="@/assets/footer-facebook.png" alt="">
-                <img src="@/assets/footer-twitter.png" alt="">
-                <img src="@/assets/footer-youtube.png" alt="">
-                <img src="@/assets/footer-pinterest.png" alt="">
-                <img src="@/assets/footer-periscope.png" alt="">
+                <a href=""><img src="@/assets/footer-facebook.png" alt=""></a>
+                <a href=""><img src="@/assets/footer-twitter.png" alt=""></a>
+                <a href=""><img src="@/assets/footer-youtube.png" alt=""></a>
+                <a href=""><img src="@/assets/footer-pinterest.png" alt=""></a>
+                <a href=""><img src="@/assets/footer-periscope.png" alt=""></a>
             </div>
 
         </div>
@@ -102,7 +102,7 @@
             align-items: center;
             img{
                 // width: 60px;
-                max-height: 70px;
+                max-height: 55px;
             }
             span{
                 padding: 10px;
@@ -154,7 +154,7 @@
         justify-content: space-between;
         align-items: center;
         
-        a{
+        span{
             color: white;
             padding: 10px;
             border: 2px solid blue;
